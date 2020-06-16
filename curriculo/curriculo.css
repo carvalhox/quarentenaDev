@@ -1,0 +1,30 @@
+* {
+    font-family: monospace;
+    background-color: black;
+    color: #5F9EA0;
+}
+
+h1, h2 {
+color: white;
+}
+
+h2 {
+text-decoration: underline;
+text-transform: uppercase;
+}
+
+ul {
+list-style: square;
+}
+
+img {
+width: 48px;
+border: 2px solid white;
+vertical-align: middle;
+}
+
+p {
+display: inline-block;
+width: 200px;
+}
+  

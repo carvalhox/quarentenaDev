@@ -1,0 +1,74 @@
+* {
+  font-family: monospace;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+#resultado {
+  margin-top: 15px;
+  padding: 15px;
+}
+
+#ficha {
+  text-align: center;
+}
+
+button {
+  width: fit-content;
+  align-self: center;
+  margin-top: 15px;
+}
+
+html {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: rgb(91, 194, 212);
+}
+
+body {
+  width: 21.88em;
+  height: 36.44em;
+  
+  max-width: 90%;
+  max-height: 90%;
+  
+  font-size: 1.25em;
+  padding: 1em;
+  
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,.25);
+  background: white;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: square;
+}
+
+img {
+  width: 48px;
+  min-height: 48px;
+  border: 2px solid white;
+  vertical-align: middle;
+  
+  background-color: lightgrey;
+}
+
+p {
+  display: inline-block;
+  width: 200px;
+}
